@@ -1,0 +1,54 @@
+.TodoApp {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.LoginComponent {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loginForm {
+    display: inline-block;
+    text-align: left;
+}
+
+.loginForm label {
+    margin-top: 10px;
+}
+
+.loginForm input {
+    margin-bottom: 10px;
+}
+
+.loginForm button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;   
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.FooterComponent {
+    text-align: center;
+    padding: 16px 0;
+    background: linear-gradient(90deg, #f8f9ff 0%, #e0e7ff 100%);
+    color: #333;
+    font-size: 1rem;
+    border-top: 1px solid #e0e0e0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
+    z-index: 100;
+}
+
+.FooterComponent p {
+    margin: 0;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
